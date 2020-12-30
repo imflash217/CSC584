@@ -1,0 +1,26 @@
+{
+    "knight_start": [5, 5],
+    "key_locations": {
+        "castle": [0, 0]
+    },
+    "greet_king": 5,
+    "state_of_world": {
+        "Has": [
+            ["Blacksmith", "Axe"],
+            ["Blacksmith", "Blade"],
+            ["Lady Lupa", "Fenrir"],
+            ["Innkeeper", "Water"],
+            ["Innkeeper", "Ale"],
+            ["Tree Spirit", "Wolfsbane"]
+        ],
+        "Wants" : [
+            ["Blacksmith", "1gold"],
+            ["Lady Lupa", "Wolfsbane"],
+            ["Tree Spirit", "Water"],
+            ["Innkeeper", "1gold"]
+        ]
+    },
+    "obstacles": {
+        "lake1": [[0,0], [20,0], [0,50]]
+    }
+}
